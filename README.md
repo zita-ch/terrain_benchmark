@@ -1,5 +1,4 @@
-# terrain_benchmark
-Terrain-Robustness Benchmark for Legged Locomotion
+# Terrain-Robustness Benchmark for Legged Locomotion
 ----  
 Project is done thanks to https://github.com/nanoxas/sketch-to-terrain for pix2pix implementation of terrain authoring!
 
