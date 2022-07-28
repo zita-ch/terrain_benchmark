@@ -19,6 +19,6 @@ with:
 + for flow learning:   
 
 ---  
-Project is done thanks to https://github.com/nanoxas/sketch-to-terrain for pix2pix implementation of terrain authoring! Yet, massive adaptations are done to achieve this project.     
+Thanks to https://github.com/nanoxas/sketch-to-terrain for pix2pix implementation of terrain authoring!       
 
 (CC BY-NC-ND 4.0 License inherited from here)
