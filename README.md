@@ -1,7 +1,7 @@
 # Terrain-Robustness Benchmark for Legged Locomotion
 ----  
 Benchmark download: [this link](https://drive.google.com/file/d/1UhRwr-dWzaZzV3hVsSNXyHTm6ZkUaQJP/view?usp=sharing)    
-Author: Chong Zhang, chong.zhang.2k@gmail.com
+Author: Chong Zhang, chong.zhang.2k@gmail.com   
 Non-commercial use only.
 
 The terrains are of size (225, 225) grids. 
