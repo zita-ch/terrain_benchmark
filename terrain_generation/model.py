@@ -1,7 +1,7 @@
-from tensorflow.keras.layers import *
-from tensorflow.keras.models import Model
-from tensorflow.keras.initializers import RandomNormal
-import tensorflow.keras.backend as K
+from keras.layers import *
+from keras.models import Model
+from keras.initializers import RandomNormal
+import keras.backend as K
 
 
 def UNet(shape):
@@ -79,7 +79,7 @@ def UNet(shape):
     conv9 = Conv2D(32, 3, activation='relu', padding='same')(conv9)
     conv10 = Conv2D(1, 1, activation='tanh')(conv9)
 
-    model = Model(input=[inputs, noise], output=conv10)
+    model = Model(inputs=[inputs, noise], outputs=conv10)
     model.summary()
     return model
 
@@ -87,7 +87,7 @@ def UNet(shape):
 def patch_discriminator(shape):
     init = RandomNormal(stddev=0.02)
     in_image = Input(shape=shape)
-    cond_image = Input((225, 225, 4))
+    cond_image = Input((225, 225, 2))
     conc_img = Concatenate()([in_image, cond_image])
     d = Conv2D(64, (4, 4), strides=(2, 2), padding='same',
                kernel_initializer=init)(conc_img)
