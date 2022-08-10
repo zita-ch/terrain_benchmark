@@ -15,8 +15,8 @@ The '/hard' folder in the downloaded benchmark folder is for difficult-to-traver
 The repo only contains the codes for benchmark generation.   
 Implemented on Ubuntu18.04, python3.6 in anaconda,
 with:
-+ for terrain generation: pysheds == 0.3.3, GDAL == 2.4.2, georasters == 0.5.23, tensorflow-gpu == 2.6.2, setuptools == 57.5.0, opencv-contrib-python == 4.6.0.66   
-+ for flow learning: tensorflow-gpu == 2.6.2, opencv-contrib-python == 4.6.0.66, torch==1.9      
++ for terrain generation: pysheds == 0.3.3, GDAL == 2.4.2, georasters == 0.5.23, tensorflow-gpu == 2.6.2, keras == 2.6.0, setuptools == 57.5.0, opencv-contrib-python == 4.6.0.66   
++ for flow learning: tensorflow-gpu == 2.6.2, opencv-contrib-python == 4.6.0.66, torch==1.10.2      
 
 ---  
 Thanks to https://github.com/nanoxas/sketch-to-terrain for pix2pix implementation of terrain authoring!       
