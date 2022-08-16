@@ -30,4 +30,15 @@ Thanks to https://github.com/nanoxas/sketch-to-terrain for pix2pix implementatio
 Todo:
 1. add evaluations of different robots and policies  
 2. add a bibtex reference after uploading the preprint at arXiv  
+```
+  @article{terrain_benchmark,
+    title={Generating a Terrain-Robustness Benchmark for Legged Locomotion: A Prototype via Terrain Authoring and Active Learning},
+    author={Zhang, Chong},
+    year={2022},
+  }
+```
+
 3. add code examples to use the benchmark  
+
+
+
