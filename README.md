@@ -26,5 +26,5 @@ Thanks to https://github.com/nanoxas/sketch-to-terrain for pix2pix implementatio
 --- 
 Todo:
 1. add evaluations of different robots and policies  
-2. add a bibtex reference after uploading the preprint  
+2. add a bibtex reference after uploading the preprint at arXiv  
 3. add code examples to use the benchmark  
