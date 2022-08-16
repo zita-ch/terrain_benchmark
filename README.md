@@ -35,6 +35,7 @@ Todo:
     title={Generating a Terrain-Robustness Benchmark for Legged Locomotion: A Prototype via Terrain Authoring and Active Learning},
     author={Zhang, Chong},
     year={2022},
+    url={https://github.com/zita-ch/terrain_benchmark/blob/main/paper.pdf}
   }
 ```
 
