@@ -1,4 +1,7 @@
 # Terrain-Robustness Benchmark for Legged Locomotion
+A prototype to generate challenging and realistic terrains in simulation.  
+With techniques of terrain authoring and active learning, the learned samplers can stably generate diverse high-quality terrains.   
+
 ----  
 Benchmark download: [this link](https://drive.google.com/file/d/1UhRwr-dWzaZzV3hVsSNXyHTm6ZkUaQJP/view?usp=sharing)    
 Author: Chong Zhang, chozhang@ethz.ch    
