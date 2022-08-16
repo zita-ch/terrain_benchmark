@@ -22,6 +22,7 @@ with:
 Thanks to https://github.com/nanoxas/sketch-to-terrain for pix2pix implementation of terrain authoring!       
 
 (CC BY-NC-ND 4.0 License inherited from here)
+
 --- 
 Todo:
 1. add evaluations of different robots and policies  
