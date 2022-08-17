@@ -2,6 +2,18 @@
 A prototype to generate challenging and realistic terrains in simulation.  
 With techniques of terrain authoring and active learning, the learned samplers can stably generate diverse high-quality terrains.   
 
+For citation:
+```
+  @article{terrain_benchmark,
+    title = {Generating a Terrain-Robustness Benchmark for Legged Locomotion: A Prototype via Terrain Authoring and Active Learning},
+    author = {Zhang, Chong},
+    publisher = {arXiv},
+    year = {2022},
+    url = {https://arxiv.org/abs/2208.07681},
+  }
+```
+
+
 ----  
 Benchmark download: [this link](https://drive.google.com/file/d/1UhRwr-dWzaZzV3hVsSNXyHTm6ZkUaQJP/view?usp=sharing)    
 Author: Chong Zhang, chozhang@ethz.ch    
@@ -28,18 +40,8 @@ Thanks to https://github.com/nanoxas/sketch-to-terrain for pix2pix implementatio
 
 --- 
 Todo:
-1. add evaluations of different robots and policies  
-2. add a bibtex reference after uploading the preprint at arXiv  
-```
-  @article{terrain_benchmark,
-    title={Generating a Terrain-Robustness Benchmark for Legged Locomotion: A Prototype via Terrain Authoring and Active Learning},
-    author={Zhang, Chong},
-    year={2022},
-    url={https://github.com/zita-ch/terrain_benchmark/blob/main/paper.pdf}
-  }
-```
-
-3. add code examples to use the benchmark  
+1. add evaluations of different robots and policies    
+2. add code examples to use the benchmark  
 
 
 
