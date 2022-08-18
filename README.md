@@ -16,6 +16,20 @@ For citation:
   }
 ```
 
+Import a terrain in PyBullet:
+```
+import pandas as pd
+
+height_file = r"[your filepath]/hard/elevation0002.txt"
+heightfieldData = pd.read_csv(height_file,sep=' ',header=None).values[::-1,:].flatten('C')
+gridsize = .035 # resized <- .025
+terrainShape = p.createCollisionShape(shapeType=p.GEOM_HEIGHTFIELD, meshScale=[gridsize, gridsize, gridsize*10],
+                                      heightfieldTextureScaling=128, heightfieldData=heightfieldData, 
+                                      numHeightfieldRows=225,numHeightfieldColumns=225)
+terrain = p.createMultiBody(0, terrainShape)
+p.resetBasePositionAndOrientation(terrain, [0, 0, -gridsize*10], [0, 0, 0, 1])
+```
+<img src="https://user-images.githubusercontent.com/54518250/185296654-ffe728d5-e998-41ea-9e01-c0013c4d7e88.png" width="640">
 
 ----  
 Benchmark download: [this link](https://drive.google.com/file/d/1UhRwr-dWzaZzV3hVsSNXyHTm6ZkUaQJP/view?usp=sharing)    
