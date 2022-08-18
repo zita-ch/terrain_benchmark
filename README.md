@@ -36,7 +36,7 @@ import pandas as pd
 
 height_file = r"[your filepath]/hard/elevation0002.txt"
 heightfieldData = pd.read_csv(height_file,sep=' ',header=None).values[::-1,:].flatten('C')
-gridsize = .035 # resized <- .025
+gridsize = .035  # rescaled from .025
 terrainShape = p.createCollisionShape(shapeType=p.GEOM_HEIGHTFIELD, meshScale=[gridsize, gridsize, gridsize*10],
                                       heightfieldTextureScaling=128, heightfieldData=heightfieldData, 
                                       numHeightfieldRows=225,numHeightfieldColumns=225)
