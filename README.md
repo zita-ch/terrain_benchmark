@@ -20,7 +20,7 @@ For citation:
 ### Usage  
 Benchmark download: [GTRB-v1 at this link](https://drive.google.com/file/d/1UhRwr-dWzaZzV3hVsSNXyHTm6ZkUaQJP/view?usp=sharing)    
 Author: Chong Zhang, chozhang@ethz.ch    
-Non-commercial use only.   
+Non-commercial use only: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License     
 
 The terrains are of size (225, 225) grids.  
 The height values vary in [0,1], which corresponds to [0,10*gridSize].  
