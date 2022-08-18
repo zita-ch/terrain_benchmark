@@ -45,6 +45,27 @@ p.resetBasePositionAndOrientation(terrain, [0, 0, -gridsize*10], [0, 0, 0, 1])
 ```
 <img src="https://user-images.githubusercontent.com/54518250/185296654-ffe728d5-e998-41ea-9e01-c0013c4d7e88.png" width="640">
 
+Import a terrain in Isaac Gym:   
+Directly assign new height values to the subterrain height field, but requiring 2d interpolation to downsample the terrain to the typically low resolution in Isaac Gym
+```
+import pandas as pd
+from scipy.interpolate import interp2d
+envWidth, downsampleRes, myRes = 80, 0.1, 0.035
+myCorStart, mySize = int(-112*myRes/downsampleRes), int(225*myRes/downsampleRes)
+myGrids = np.linspace(-112*myRes, 112*myRes, num=225)
+interpGrids = np.linspace(myCorStart*downsampleRes,(myCorStart+mySize-1)*downsampleRes, num=mySize)
+algoHeightScale, myHeightScale = 0.005, myRes * 10
+
+myMap = pd.read_csv(r'[your filepath]/hard/elevation0014.txt', sep=' ', header=None).values[::-1,:].T
+myDS = interp2d(myGrids, myGrids, myMap)
+interpHeight = myDS(interpGrids, interpGrids)* myHeightScale / algoHeightScale
+self.height_field_raw[start_x: end_x, start_y:end_y] = 0.
+self.height_field_raw[start_x + envWidth // 2 + myCorStart: start_x + envWidth // 2 + myCorStart + mySize,
+            start_y + envWidth // 2 + myCorStart:start_y + envWidth // 2 + myCorStart + mySize] = interpHeight
+
+```
+<img src="https://user-images.githubusercontent.com/54518250/185459884-db3cf78f-82e1-4d0d-9523-07dbbc9cee72.png" width="640">
+
 ----  
 
 #### Repro  
