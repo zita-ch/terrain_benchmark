@@ -28,7 +28,16 @@ The very initial purpose takes gridSize = 2.5cm, but it can be scaled.
 
 The '/hard' folder in the downloaded benchmark folder is for difficult-to-traverse terrains (with high scores), and the '/medium' folder is for terrains with similar difficulties (score ~0.055).
 
-#### Importing
+#### Evaluate a policy  
+
+1) How well a base-velocity-tracking policy performs over challenging terrains? See [the Tracking Challenge](tracking_challenge).  
+2) How well a fall-recovery policy performs over challenging terrains? Waiting for the Fall Recovery Challenge.   
+3) How to generate more challenging terrains? Try the tricks below!
+  - Add slopes. 15 degrees can make the terrains quite challenging.
+  - Get a larger gridSize. May rescale it to 5 cm.
+  - Specify varying friction coefficients. Imagine the wet stones after rain.  
+
+#### Importing a terrain  
 
 Import a terrain in PyBullet:
 ```
@@ -83,7 +92,7 @@ Thanks to https://github.com/nanoxas/sketch-to-terrain for pix2pix implementatio
 
 --- 
 #### Todo:  
-1. add evaluations of different robots and policies    
+1. add evaluations of fall recovery policies. 
 
 
 
