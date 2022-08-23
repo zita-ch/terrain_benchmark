@@ -79,7 +79,7 @@ self.height_field_raw[start_x + envWidth // 2 + myCorStart: start_x + envWidth /
 
 #### Repro  
 
-The repo only contains the codes for benchmark generation.   
+The repo only contains the codes for benchmark generation, and some "challenges".   
 Implemented on Ubuntu18.04, python3.6 in anaconda,
 with:
 + for terrain generation: pysheds == 0.3.3, GDAL == 2.4.2, georasters == 0.5.23, tensorflow-gpu == 2.6.2, keras == 2.6.0, setuptools == 57.5.0, opencv-contrib-python == 4.6.0.66   
