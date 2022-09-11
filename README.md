@@ -31,7 +31,7 @@ The '/hard' folder in the downloaded benchmark folder is for difficult-to-traver
 #### Evaluate a policy  
 
 1) How well a base-velocity-tracking policy performs over challenging terrains? See [the Tracking Challenge](tracking_challenge).  
-2) How well a fall-recovery policy performs over challenging terrains? Waiting for the Fall Recovery Challenge.   
+2) How well a fall-recovery policy performs over challenging terrains? See [the Fall Recovery Challenge](fall_rec_challenge).   
 3) How to generate more challenging terrains? Try the tricks below!
   - Add slopes. 15 degrees can make the terrains quite challenging.
   - Get a larger gridSize. May rescale it to 5 cm.
@@ -92,7 +92,9 @@ Thanks to https://github.com/nanoxas/sketch-to-terrain for pix2pix implementatio
 
 --- 
 #### Todo:  
-1. add evaluations of fall recovery policies. 
+1. Make the generation goal-conditioned.   
+2. Achieve the non-rigid terrain generation.   
+3. Try data-driven training with these terrains.  
 
 
 
