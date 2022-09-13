@@ -15,11 +15,12 @@ For citation:
     url = {https://arxiv.org/abs/2208.07681},
   }
 ```
+* the citation will be updated after the new version is submitted, which has more contributors.  
 
 ----  
 ### Usage  
 Benchmark download: [GTRB-v1 at this link](https://drive.google.com/file/d/1UhRwr-dWzaZzV3hVsSNXyHTm6ZkUaQJP/view?usp=sharing)    
-Author: Chong Zhang, chozhang@ethz.ch    
+Main author: Chong Zhang, chozhang@ethz.ch    
 Non-commercial use only: CC BY-NC-SA 4.0 License     
 
 The terrains are of size (225, 225) grids.  
