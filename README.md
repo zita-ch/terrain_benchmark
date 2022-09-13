@@ -9,13 +9,12 @@ For citation:
 ```
   @article{terrain_benchmark,
     title = {Generating a Terrain-Robustness Benchmark for Legged Locomotion: A Prototype via Terrain Authoring and Active Learning},
-    author = {Zhang, Chong},
+    author = {Zhang, Chong and Yang, Lizhi},
     publisher = {arXiv},
     year = {2022},
     url = {https://arxiv.org/abs/2208.07681},
   }
-```
-* the citation will be updated after the new version is submitted, which has more contributors.  
+``` 
 
 ----  
 ### Usage  
