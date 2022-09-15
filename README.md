@@ -1,6 +1,7 @@
 # Generated Terrain-Robustness Benchmark (GTRB) for Legged Locomotion  
 A prototype to generate diverse, challenging, and realistic unstructured terrains in simulation.  
 With techniques of terrain authoring and active learning, the learned samplers can stably generate diverse high-quality terrains.   
+You may watch our video attachment for paper submission: [video](icra_video_attachment_submit.mp4)  
 
 ![image](https://user-images.githubusercontent.com/54518250/185016398-cbbd36d1-745e-4712-b962-bab8874f4043.png)
 
