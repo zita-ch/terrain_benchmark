@@ -2,6 +2,7 @@
 A prototype to generate diverse, challenging, and realistic unstructured terrains in simulation.  
 With techniques of terrain authoring and active learning, the learned samplers can stably generate diverse high-quality terrains.   
 You may watch our video attachment for paper submission: [video file](icra_video_attachment_submit.mp4), [watch on youtube](https://youtu.be/pdXERZzdsdM)    
+This work has been accepted by ICRA 2023.  
 
 ![image](https://user-images.githubusercontent.com/54518250/185016398-cbbd36d1-745e-4712-b962-bab8874f4043.png)
 
