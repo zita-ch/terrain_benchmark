@@ -2,19 +2,18 @@
 A prototype to generate diverse, challenging, and realistic unstructured terrains in simulation.  
 With techniques of terrain authoring and active learning, the learned samplers can stably generate diverse high-quality terrains.   
 You may watch our video attachment for paper submission: [video file](icra_video_attachment_submit.mp4), [watch on youtube](https://youtu.be/pdXERZzdsdM)    
-This work has been accepted by ICRA 2023.  
+This work has been accepted by ICRA 2023. [preprint](https://arxiv.org/abs/2208.07681)   
 
 ![image](https://user-images.githubusercontent.com/54518250/185016398-cbbd36d1-745e-4712-b962-bab8874f4043.png)
 
 
 For citation:
 ```
-  @article{terrain_benchmark,
+  @inproceedings{terrain_benchmark,
     title = {Generating a Terrain-Robustness Benchmark for Legged Locomotion: A Prototype via Terrain Authoring and Active Learning},
     author = {Zhang, Chong and Yang, Lizhi},
-    publisher = {arXiv},
+    booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
     year = {2022},
-    url = {https://arxiv.org/abs/2208.07681},
   }
 ``` 
 
