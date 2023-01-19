@@ -12,8 +12,8 @@ For citation:
   @inproceedings{terrain_benchmark,
     title = {Generating a Terrain-Robustness Benchmark for Legged Locomotion: A Prototype via Terrain Authoring and Active Learning},
     author = {Zhang, Chong and Yang, Lizhi},
-    booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
-    year = {2022},
+    booktitle = {2023 IEEE International Conference on Robotics and Automation (ICRA)},
+    year = {2023},
   }
 ``` 
 
